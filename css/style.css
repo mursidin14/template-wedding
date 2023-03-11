@@ -70,6 +70,42 @@ html {
       opacity: .6;
     }
   }
+
+  @media (max-width: 1280px) {
+    .open-invitation  {
+      animation: sunshines .8s infinite;
+      position: absolute;
+      bottom: 25%;
+      left: 41%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .open-invitation  {
+      animation: sunshines .8s infinite;
+      position: absolute;
+      bottom: 25%;
+      left: 40%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .open-invitation  {
+      animation: sunshines .8s infinite;
+      position: absolute;
+      bottom: 30%;
+      left: 35%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .open-invitation  {
+      animation: sunshines .8s infinite;
+      position: absolute;
+      bottom: 30%;
+      left: 30%;
+    }
+  }
   
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
